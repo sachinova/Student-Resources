@@ -62,8 +62,6 @@ st.sidebar.title("Developer Info")
 
 import streamlit as st
 
-st.sidebar.title("Developer Info")
-
 st.sidebar.markdown(
     """
     <div style='display: inline-block; padding: 8px 12px; background-color: #3b5998; border-radius: 6px; margin-bottom: 10px;'>
@@ -263,6 +261,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
