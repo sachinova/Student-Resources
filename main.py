@@ -70,6 +70,7 @@ st.sidebar.markdown(
                 """,
                 unsafe_allow_html=True
             )
+st.sidebar.markdown(<br>)
 st.sidebar.markdown(
                 """
                 <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
@@ -258,6 +259,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
