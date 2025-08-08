@@ -60,38 +60,42 @@ with col3:
 
 st.sidebar.title("Developer Info")
 
-st.sidebar.markdown(
-                """
-                <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
-                    <a href='https://www.linkedin.com/in/your-profile' target='_blank' style='color: white; text-decoration: underline;'>
-                        LinkedIn
-                    </a>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-st.sidebar.markdown(<br>)
-st.sidebar.markdown(
-                """
-                <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
-                    <a href='https://github.com/sachinova' style='color: white; text-decoration: underline;'>
-                        Github
-                    </a>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+import streamlit as st
+
+st.sidebar.title("Developer Info")
 
 st.sidebar.markdown(
-                """
-                <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
-                    <a href='https://www.instagram.com/your-profile' style='color: white; text-decoration: underline;'>
-                        Instagram
-                    </a>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+    """
+    <div style='display: inline-block; padding: 8px 12px; background-color: #3b5998; border-radius: 6px; margin-bottom: 10px;'>
+        <a href='https://www.linkedin.com/in/your-profile' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
+            👨‍💼 LinkedIn
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+st.sidebar.markdown(
+    """
+    <div style='display: inline-block; padding: 8px 12px; background-color: #24292e; border-radius: 6px; margin-bottom: 10px;'>
+        <a href='https://github.com/sachinova' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
+            🐱 GitHub
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+st.sidebar.markdown(
+    """
+    <div style='display: inline-block; padding: 8px 12px; background-color: #E1306C; border-radius: 6px; margin-bottom: 10px;'>
+        <a href='https://www.instagram.com/your-profile' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
+            📸 Instagram
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Spacer
 st.markdown("<br><br>", unsafe_allow_html=True)
@@ -259,6 +263,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
