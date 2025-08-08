@@ -159,7 +159,7 @@ with col6:
         """
         <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px;'>
             <h4>📂 Reference Books</h4>
-            📄 <a href='docs/reference_books.pdf' target='_blank'>List of Recommended Books</a>
+            📄 <a href='https://mathematics-resources.streamlit.app/' target='_blank'>List of Recommended Books</a>
         </div>
         """,
         unsafe_allow_html=True
@@ -263,6 +263,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
