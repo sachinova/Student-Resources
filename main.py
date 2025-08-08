@@ -1,4 +1,4 @@
-eimport streamlit as st
+import streamlit as st
 import base64
 
 
@@ -230,6 +230,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
