@@ -65,7 +65,7 @@ import streamlit as st
 st.sidebar.markdown(
     """
     <div style='display: inline-block; padding: 8px 12px; background-color: #3b5998; border-radius: 6px; margin-bottom: 10px;'>
-        <a href='https://www.linkedin.com/in/your-profile' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
+        <a href='https://www.linkedin.com/in/sachin-sr/' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
             👨‍💼 LinkedIn
         </a>
     </div>
@@ -87,7 +87,7 @@ st.sidebar.markdown(
 st.sidebar.markdown(
     """
     <div style='display: inline-block; padding: 8px 12px; background-color: #E1306C; border-radius: 6px; margin-bottom: 10px;'>
-        <a href='https://www.instagram.com/your-profile' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
+        <a href='https://www.instagram.com/sachinsinghrautelaa/' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
             📸 Instagram
         </a>
     </div>
@@ -261,6 +261,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
