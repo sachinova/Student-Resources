@@ -77,7 +77,7 @@ st.sidebar.markdown(
 
 st.sidebar.markdown(
     """
-    <div style='display: inline-block; padding: 8px 12px; background-color: #24292e; border-radius: 6px; margin-bottom: 10px;'>
+    <div style='display: inline-block; padding: 8px 12px; background-color: #000000; border-radius: 6px; margin-bottom: 10px;'>
         <a href='https://github.com/sachinova' target='_blank' style='color: white; text-decoration: none; font-weight: bold;'>
             🐱 GitHub
         </a>
@@ -263,6 +263,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
