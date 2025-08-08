@@ -7,6 +7,8 @@ import base64
 
 # Set page config
 st.set_page_config(page_title="Math App", layout="wide")
+st.set_page_config(initial_sidebar_state="collapsed")
+
 
 # Function to add background
 # Function to add background
@@ -261,6 +263,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
