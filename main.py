@@ -1,4 +1,4 @@
-import streamlit as st
+eimport streamlit as st
 import base64
 
 
@@ -59,9 +59,10 @@ with col3:
 
 
 st.sidebar.title("Developer Info")
-st.sidebar.button("Linkedin")
-st.sidebar.button("Instagram")
-st.sidebar.button("Github")
+
+st.sidebar.markdown("[👨‍💼 LinkedIn](https://www.linkedin.com/in/your-profile)")
+st.sidebar.markdown("[🐱 GitHub](https://github.com/your-profile)")
+st.sidebar.markdown("[📸 Instagram](https://www.instagram.com/your-profile)")
 
 # Spacer
 st.markdown("<br><br>", unsafe_allow_html=True)
@@ -229,6 +230,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
